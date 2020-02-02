@@ -1,0 +1,7 @@
+<h1>Student List</h1>
+
+<% @students.all.map do |student| %>
+    <!--<p> <%= student.first_name %> </p> -->
+    <p><%= student.to_s %></p>
+<% end %>
+
